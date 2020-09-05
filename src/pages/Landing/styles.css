@@ -1,0 +1,203 @@
+#page-landing, #page-landing-content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.upside, .downside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.upside {
+    background: var(--color-primary);
+}
+
+.downside {
+    color: var(--color-background);
+}
+
+.downside-content {
+    padding-top: 4.2rem;
+}
+
+.logo-container h2 {
+    color: var(--color-text-in-primary);
+}
+
+.logo-container img, h2 {
+    display: none;
+}
+
+.hero-image {
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.welcome {
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--color-text-base);
+}
+
+.welcome strong {
+    font-weight: 700;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem auto;
+}
+
+.buttons-container a {
+    width: 14.8rem;
+    height: 15.8rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    color: var(--color-button-text);
+
+    transition: background-color 0.2s;
+}
+
+.buttons-container a:first-child {
+    margin-right: 1.6rem;
+}
+
+.buttons-container a img {
+    width: 4rem;
+}
+
+.buttons-container a.study {
+    background: var(--color-primary-lighter);
+}
+
+.buttons-container a.give-classes {
+    background: var(--color-secundary);
+}
+
+.buttons-container a.study:hover {
+    background: var(--color-primary-light);
+}
+
+.buttons-container a.give-classes:hover {
+    background: var(--color-secundary-dark);
+}
+
+.buttons-container a img {
+    margin-right: 2.4rem;
+}
+
+.total-connections {
+    align-self: start;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+    display: inline-block;
+    color: var(--color-text-complement);
+}
+
+.total-connections img {
+    margin-left: 0.2rem;
+}
+
+@media (min-width: 1100px) {
+    .upside, .downside {
+        width: 100%;
+    }
+
+    .upside-content, .downside-content {
+        width: 112rem;
+    }
+
+    .upside-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "proffy hero";
+        place-items: center;
+        padding: 0;
+    }
+
+    .downside-content {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "welcome connections buttons";
+        place-items: center;
+    }
+
+    .logo-container {
+        grid: proffy;
+    }
+
+    .logo-container img, h2 {
+        display: flex;
+    }
+
+    .logo-container img {
+        height: 100%;
+    }
+
+    .logo-container h2 {
+        text-align: initial;
+        font-size: 3.6rem;
+
+        font-weight: 500;
+        line-height: 4.6rem;
+        margin-top: 0.8rem;
+    }
+
+    .hero-image {
+        grid: hero;
+        justify-self: end;
+    }
+
+    .buttons-container {
+        grid-area: buttons;
+        justify-content: flex-start;
+    }
+
+    .buttons-container a {
+        width: 28.2rem;
+        height: 10.4rem;
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+
+        font-size: 2.4rem;
+    }
+
+    .welcome {
+        grid-area: welcome;
+        align-self: center;
+        justify-self: self-start;
+    }
+
+    .total-connections {
+        grid-area: connections;
+        align-self: center;
+        justify-self: self-end;
+        padding-right: 5.3rem;
+    }
+}

@@ -1,0 +1,369 @@
+#page-teacher-form {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-teacher-form .page-header .header-content {
+    height: 14rem;
+    margin-bottom: 6.4rem;
+}
+
+#page-teacher-form .page-header .header-content p {
+    display: none;
+}
+
+#page-teacher-form .page-header .header-content-title strong {
+    width: 38rem;
+    padding-bottom: 1.6rem;
+}
+
+#page-teacher-form .page-header .header-content h2 {
+    display: flex;
+    width: 24rem;
+    height: 5.2rem;
+    padding-top: 2.4rem;
+
+    font: 500 1.6rem Poppins;
+    line-height: 2.6rem;
+    color: var(--color-text-in-primary);
+}
+
+.teacher-id {
+    margin-top: 1.2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-flow: column;
+    
+    justify-content: space-between;
+}
+
+.teacher-info {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+
+    margin-bottom: 2.3rem;
+}
+
+.teacher-info img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2rem;
+    border-radius: 6rem;
+}
+
+.teacher-info strong {
+    font: 700 2rem Archivo;
+    line-height: 2.5rem;
+    color: var(--color-text-title);
+}
+
+.about-classes input {
+    font: 1.4rem Poppins;
+}
+
+.about-classes .select-block {
+    margin-bottom: 1.6rem;
+}
+
+#page-teacher-form main form fieldset .teacher-id .input-block label {
+    display: none;
+}
+
+#whatsapp-label {
+    font: 500 1.4rem Poppins;
+    line-height: 2.2rem;
+    color: var(--color-text-complement);
+}
+
+#page-teacher-form main .schedule-item {
+    display: inline;
+}
+
+#page-teacher-form main .schedule-item-box {
+    width: 100%;
+}
+
+#page-teacher-form main .schedule-item-box .schedule-time {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule-time .input-block {
+    margin-top: 1.6rem;
+    width: 47%;
+}
+
+#page-teacher-form main .schedule-item .delete-schedule-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.6rem;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+#page-teacher-form main .schedule-item .delete-schedule-button button {
+    background: none;
+    border: 0;
+    color: #E33D3D;
+    font: 700 1.2rem Archivo;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#page-teacher-form main .schedule-item .delete-schedule-button:before,
+#page-teacher-form main .schedule-item .delete-schedule-button:after {
+    background-color: var(--color-line-in-white);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    align-self: center;
+    width: 50%;
+}
+
+#page-teacher-form main .schedule-item .delete-schedule-button:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+#page-teacher-form main .schedule-item .delete-schedule-button:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+#page-teacher-form main form fieldset .teacher-id .cleave-phone-input {
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 0.8rem;
+    border-radius: 0.8rem;
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+}
+
+#page-teacher-form main {
+    background: var(--color-box-base);
+    width: 90%;
+    max-width: 74rem;
+    border-radius: 0.8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding-top: 6.4rem;
+    overflow: hidden;
+}
+
+#page-teacher-form main fieldset {
+    border: 0;
+    padding: 0 2.4rem;
+}
+
+#page-teacher-form main fieldset + fieldset {
+    margin-top: 6.4rem;
+    display: flex;
+}
+
+#page-teacher-form main fieldset legend {
+    font: 700 2.4rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--color-line-in-white);
+}
+
+#page-teacher-form main fieldset legend button {
+    background: none;
+    border: 0;
+    color: var(--color-primary);
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+#page-teacher-form main fieldset legend button:hover {
+    color: var(--color-primary-dark);
+}
+
+#page-teacher-form main fieldset .input-block + .textarea-block,
+#page-teacher-form main fieldset .select-block + .input-block {
+    margin-top: 2.4rem;
+}
+
+#page-teacher-form main label {
+    color: var(--color-text-complement);
+}
+
+#page-teacher-form main footer {
+    padding: 2.4rem 2.4rem;
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-white);
+    margin-top: 4rem;
+}
+
+#page-teacher-form main footer p {
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: var(--color-primary);
+}
+
+#page-teacher-form main footer p img {
+    margin-right: 2rem;
+}
+
+.footer-warn {
+    margin-top: 0 !important;
+    flex-flow: column;
+}
+
+.footer-warn-message {
+    margin-top: 0 !important;
+    color: var(--color-text-complement) !important;
+}
+
+#page-teacher-form main footer button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+#page-teacher-form main footer button:hover {
+    background: var(--color-secundary-dark);
+}
+
+
+@media (min-width: 700px) {
+    #page-teacher-form {
+        max-width: 100vw;
+    }
+
+    #page-teacher-form .page-header .header-content {
+        margin: 0 auto;
+        width: 740px;
+        display: flex;
+    }
+
+    #page-teacher-form .page-header .header-content p {
+        display: flex;
+    }
+
+    #page-teacher-form .page-header .header-content-title strong {
+        width: 38rem;
+        padding-bottom: 2.4rem;
+    }
+
+    #page-teacher-form .page-header .header-content-title h2 {
+        height: 4.8rem;
+        width: 28.3rem;
+        padding-top: 0;
+
+        line-height: 2.4rem;
+    }
+
+    #whatsapp-label {
+        display: flex;
+        align-self: flex-start;
+        transform: translate(14.6rem, 0.8rem);
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+
+    #page-teacher-form main form fieldset .teacher-id .input-block {
+        width: 22.4rem;
+    }
+
+    .teacher-id {
+        margin-top: 1.2rem;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-flow: row;
+        
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .teacher-info {
+        margin-bottom: 0;
+    }
+
+    .teacher-info img {
+        width: 12rem;
+        height: 12rem;
+
+        margin-right: 3rem;
+    }
+
+    .about-classes {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    .classes-input .input-block {
+        font: 1.6rem Poppins;
+        width: 19.4rem;
+    }
+
+    #page-teacher-form main fieldset {
+        padding: 0 6.4rem;
+    }
+
+    /* #page-teacher-form main .schedule-item {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+    } */
+
+    #page-teacher-form main .schedule-item .schedule-item-box {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 1.6rem;
+    }
+
+    
+
+    #page-teacher-form main .schedule-item .input-block,
+    #page-teacher-form main fieldset .input-block + .textarea-block,
+    #page-teacher-form main fieldset .select-block + .input-block  {
+        margin-top: 0;
+    }
+
+    #page-teacher-form main footer {
+        margin-top: 6.4rem;
+        padding: 4.0rem 6.4rem;
+        display: flex;
+        flex-flow: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #page-teacher-form main footer p {
+        margin-top: 0 !important;
+    }
+
+    #page-teacher-form main footer button {
+        width: 20rem;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,92 @@
+.login-page-header {
+    width: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-primary);
+    /* background-color: #FFF; */
+}
+
+.login-page-header .login-top-bar-container {
+    width: 90%;
+    height: 4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 2.4rem 0;
+    padding-top: 3.2rem;
+}
+
+.user-header {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.user-header > img {
+    max-width: 4rem;
+    margin-right: 1.4rem;
+    border-radius: 2rem;
+}
+
+.user-header p {
+    max-width: 300rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: var(--color-text-in-primary);
+}
+
+.profile-link {
+    text-decoration: none;
+}
+
+.power-off {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.8rem;
+    background-color: var(--color-primary-dark);
+    transition: opacity 0.2s;
+}
+
+.power-off:hover {
+    opacity: 0.6;
+}
+
+@media (min-width: 700px) {
+
+    .login-page-header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "user logoff";
+        place-items: center;
+    }
+
+    .login-top-bar-container {
+        justify-content: center;
+    }
+
+    .user-header {
+        grid: user;
+    }
+
+    .user-header p {
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+
+    .power-off {
+        grid: logoff;
+    }
+
+    .login-page-header .login-top-bar-container {
+        max-width: 1120px;
+        padding: 4.2rem 0;
+    }
+}

@@ -1,0 +1,87 @@
+.success-register-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: var(--color-primary);
+}
+
+.success-register-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 75vw;
+  height: 75vh;
+
+  background-image: url('../../assets/images/success-background.svg');
+  background-position: center;
+  background-size: 54rem;
+  background-repeat: no-repeat;
+}
+
+.success-register-content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-register-content img {
+  width: 8rem;
+  height: 8rem;
+}
+
+.success-register-content strong {
+  font-family: Archivo;
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 3.7rem;
+
+  text-align: center;
+  color: #FFF;
+  margin-top: 3.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.success-register-content p {
+  width: 17rem;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-align: center;
+  color: var(--color-text-in-primary);
+}
+
+.success-register-page button {
+  width: 75vw;
+  height: 5.6rem;
+  border: none;
+  margin-top: 2.4rem;
+
+  background: var(--color-secundary);
+  border-radius: 0.8rem;
+
+  font-family: Archivo;
+  font-weight: 600;
+  color: #FFF;
+}
+
+.success-register-page button:hover {
+  color: var(--color-secundary-dark);
+}
+
+
+@media (min-width: 1100px) {
+  .success-register-page button {
+    width: 19.7rem;
+    transform: translateY(-18rem);
+  }
+
+  .success-register-background {
+    background-size: cover;
+  }
+}

@@ -1,0 +1,85 @@
+.float-input-block {
+    width: 31.1rem;
+    height: 7.2rem;
+    overflow: hidden;
+
+}
+
+/* .float-input-block +.float-input-block {
+    margin-top: 1.4rem;
+} */
+
+.float-input-block label {
+    font-size: 1.4rem;
+}
+
+.float-input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    /* border-radius: 0; */
+    background: var(--color-input-background);
+    border: 1px solid var(--color-line-in-white);
+    outline: 0;
+    padding: 0 1.6rem;
+}
+
+/* .float-input-block .float-input:first-child {
+    margin-top: 4rem;
+} */
+
+.float-input-block:focus-within::after {
+    width: 2px;
+    height: 40px;
+    transform: translateY(-7.5rem);
+    content: '';
+    background: var(--color-primary-light);
+    position: absolute;
+}
+
+.float-label {
+    display: block;
+
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    
+    color: var(--color-text-complement);
+
+    opacity: 1;
+    transform: translate(1.8rem, -4.8rem);
+    transform-origin: 0 0;
+    transition: all 0.3s;
+}
+
+.float-input::placeholder {
+    color: transparent;
+}
+
+.float-input:focus + .float-label,
+.float-input:not(:placeholder-shown) + .float-label {
+    transform: translate(1.7rem, -6.2rem) scale(0.71);
+}
+
+.eyeIcon, .eyeOffIcon {
+    transform: translate(27.4rem, -4.8rem);
+}
+
+.eyeOffIcon {
+    color: var(--color-primary);
+}
+
+@media(min-width: 1100px) {
+    .float-input-block {
+        width: 35.2rem;
+        height: 6.4rem;
+    }
+
+    .float-label {
+        transform: translate(1.8rem, -4.4rem);
+        font-size: 1.6rem;
+    }
+
+    .eyeIcon, .eyeOffIcon {
+        transform: translate(30.7rem, -4.4rem);
+    }
+}
