@@ -1,44 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Next-Level-Week-#02
 
-## Available Scripts
+<h1 align="center">
+    <img alt="Proffy" title="Proffy" src="https://user-images.githubusercontent.com/45312912/89740443-1490be80-da5f-11ea-8ac4-63f06cf3c9f3.png" />
+</h1>
 
-In the project directory, you can run:
+![GitHub top language](https://img.shields.io/github/languages/count/ygorverde/next-level-week-2) 
+![GitHub top language](https://img.shields.io/github/languages/top/ygorverde/next-level-week-2) ![GitHub last commit](https://img.shields.io/github/last-commit/ygorverde/next-level-week-2) ![GitHub repo size](https://img.shields.io/github/repo-size/ygorverde/next-level-week-2)
 
-### `yarn start`
+<h2>:computer: WEB</h2>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45312912/89742139-a9021d80-da6d-11ea-8e7d-8e42d1a16fc3.png" alt="PRs welcome!" />
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+------------
 
-### `yarn test`
+## 🔖 Layouts
+Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Layout Web](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)
+- [Layout Mobile](https://www.figma.com/file/e33KvgUpFdunXxJjHnK7CG/Proffy-Mobile)
 
-### `yarn build`
+------------
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologias
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [NodeJs](https://nodejs.org/en/ "NodeJs")
+- [React](https://reactjs.org/ "React")
+- [Typescript](https://www.typescriptlang.org/ "Typescript")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+------------
 
-### `yarn eject`
+## 💻 Sobre o projeto 
+O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Dependências
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Express](https://expressjs.com/ "Express")
+- [KnexJS](http://knexjs.org/ "KnexJS")
+- [SQLite3](https://www.npmjs.com/package/sqlite3 "SQLite3")
+- [Axios](https://www.npmjs.com/package/axios "Axios")
+- [Expo Google Fonts](https://github.com/expo/google-fonts " [Expo Google Fonts]")
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+------------
+## 🤔 Como ajudar
+```
+- Faça um fork desse repositório;
 
-## Learn More
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+```
+------------
+
+## Agradecimentos
+  - <a target="_blank" href="https://github.com/diego3g">Diego Fernandes</a>
+  
+<br>
+  
+<footer align="center">
+ <strong align="center">Feito com ♥ por Ygor Verde</strong>
+</footer>
