@@ -20,7 +20,6 @@ Link para acessar o Proffy Web:
 <a href="https://proffy.fernandorcoelho.vercel.app/">Acesse Proffy Web</a>
 <hr>
 
-------------
 
 ## 🔖 Layouts
 Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
