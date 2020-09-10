@@ -58,10 +58,10 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 ------------
 
 ## Agradecimentos
-  - <a target="_blank" href="https://github.com/diego3g">Diego Fernandes</a>
+  - <a target="_blank" href="https://github.com/fernandorcoelho">Fernando Rodrigues Coelho</a>
   
 <br>
   
 <footer align="center">
- <strong align="center">Feito com ♥ por Ygor Verde</strong>
+ <strong align="center">Feito com ♥ por Fernando Rodrigues Coelho</strong>
 </footer>
